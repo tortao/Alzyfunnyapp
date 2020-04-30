@@ -1,0 +1,4 @@
+#Wed Apr 29 19:18:16 ICT 2020
+base.0=D\:\\alzyfunny1\\alzyfunny1\\app\\build\\intermediates\\dex\\release\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

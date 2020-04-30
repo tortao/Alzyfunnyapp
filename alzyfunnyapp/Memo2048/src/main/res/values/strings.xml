@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Confirmation dialog-->
+    <string name="reset">ตั้งค่าใหม่</string>
+    <string name="continue_game">ยกเลิก</string>
+    <string name="reset_dialog_title">ตั้งค่าเกมใหม่ใช่หรือไม่ ?</string>
+    <string name="reset_dialog_message">คุณแน่ใจแล้วนะว่าจะตั้งค่าเกมใหม่ ?</string>
+
+    <string name="high_score">คะแนนสูงสุด</string>
+    <string name="score">คะแนน</string>
+    <string name="maxtile">ไทล์สูงสุด</string>
+    <string name="timeText">เวลาที่ผ่านไป</string>
+    <string name="instructions">มาเล่น 2048 กันเถอะพวกเรา!</string>
+    <string name="you_win">คุณชนะแล้ว!</string>
+    <string name="game_over">จบเกม!</string>
+    <string name="paused">หยุดก่อน!</string>
+    <string name="go_on">แตะเพื่อดำเนินการต่อ</string>
+    <string name="for_now">สำหรับตอนนี้...</string>
+    <string name="endless">โหมด "ไม่มีที่สิ้นสุด"</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Alzyfunnyapp.iml" filepath="$PROJECT_DIR$/Alzyfunnyapp.iml" group="Alzyfunnyapp" />
+      <module fileurl="file://$PROJECT_DIR$/Memo2048/Memo2048.iml" filepath="$PROJECT_DIR$/Memo2048/Memo2048.iml" group="Alzyfunnyapp/Memo2048" />
+      <module fileurl="file://$PROJECT_DIR$/Memomatch/Memomatch.iml" filepath="$PROJECT_DIR$/Memomatch/Memomatch.iml" group="Alzyfunnyapp/Memomatch" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="Alzyfunnyapp/app" />
+    </modules>
+  </component>
+</project>

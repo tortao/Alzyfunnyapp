@@ -1,0 +1,128 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.alzyfunnyapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+8-->D:\alzyfunny1\alzyfunny1\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\alzyfunny1\alzyfunny1\app\src\main\AndroidManifest.xml
+10
+11    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+12    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.google.firebase:firebase-database:19.3.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a858482f0d85511048b88d680e761880\jetified-firebase-database-19.3.0\AndroidManifest.xml:25:5-79
+13-->[com.google.firebase:firebase-database:19.3.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a858482f0d85511048b88d680e761880\jetified-firebase-database-19.3.0\AndroidManifest.xml:25:22-76
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->[com.google.firebase:firebase-database:19.3.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a858482f0d85511048b88d680e761880\jetified-firebase-database-19.3.0\AndroidManifest.xml:26:5-67
+14-->[com.google.firebase:firebase-database:19.3.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a858482f0d85511048b88d680e761880\jetified-firebase-database-19.3.0\AndroidManifest.xml:26:22-64
+15
+16    <application
+16-->D:\alzyfunny1\alzyfunny1\app\src\main\AndroidManifest.xml:5:5-40:19
+17        android:name="com.example.alzyfunnyapp.MainApplication"
+17-->D:\alzyfunny1\alzyfunny1\app\src\main\AndroidManifest.xml:6:9-40
+18        android:allowBackup="true"
+18-->D:\alzyfunny1\alzyfunny1\app\src\main\AndroidManifest.xml:7:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\bcfc0b80df78591183083cc148e1cf2c\core-1.1.0\AndroidManifest.xml:24:18-86
+20        android:extractNativeLibs="false"
+21        android:icon="@drawable/logo"
+21-->D:\alzyfunny1\alzyfunny1\app\src\main\AndroidManifest.xml:8:9-38
+22        android:label="@string/app_name"
+22-->D:\alzyfunny1\alzyfunny1\app\src\main\AndroidManifest.xml:9:9-41
+23        android:roundIcon="@drawable/logo"
+23-->D:\alzyfunny1\alzyfunny1\app\src\main\AndroidManifest.xml:10:9-43
+24        android:supportsRtl="true"
+24-->D:\alzyfunny1\alzyfunny1\app\src\main\AndroidManifest.xml:11:9-35
+25        android:theme="@style/AppTheme" >
+25-->D:\alzyfunny1\alzyfunny1\app\src\main\AndroidManifest.xml:12:9-40
+26        <activity android:name="com.example.alzyfunnyapp.MainActivity" >
+26-->D:\alzyfunny1\alzyfunny1\app\src\main\AndroidManifest.xml:14:9-21:20
+26-->D:\alzyfunny1\alzyfunny1\app\src\main\AndroidManifest.xml:14:19-47
+27            <intent-filter>
+27-->D:\alzyfunny1\alzyfunny1\app\src\main\AndroidManifest.xml:16:13-20:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->D:\alzyfunny1\alzyfunny1\app\src\main\AndroidManifest.xml:17:17-69
+28-->D:\alzyfunny1\alzyfunny1\app\src\main\AndroidManifest.xml:17:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->D:\alzyfunny1\alzyfunny1\app\src\main\AndroidManifest.xml:19:17-77
+30-->D:\alzyfunny1\alzyfunny1\app\src\main\AndroidManifest.xml:19:27-74
+31            </intent-filter>
+32        </activity>
+33        <activity android:name="com.example.alzyfunnyapp.GameActivity" />
+33-->D:\alzyfunny1\alzyfunny1\app\src\main\AndroidManifest.xml:24:9-59
+33-->D:\alzyfunny1\alzyfunny1\app\src\main\AndroidManifest.xml:24:19-47
+34        <activity
+34-->D:\alzyfunny1\alzyfunny1\app\src\main\AndroidManifest.xml:26:9-27:58
+35            android:name="com.example.alzyfunnyapp.PopaboutActivity"
+35-->D:\alzyfunny1\alzyfunny1\app\src\main\AndroidManifest.xml:26:19-51
+36            android:theme="@style/AppTheme.PopMe" />
+36-->D:\alzyfunny1\alzyfunny1\app\src\main\AndroidManifest.xml:27:19-56
+37        <activity
+37-->D:\alzyfunny1\alzyfunny1\app\src\main\AndroidManifest.xml:29:9-30:58
+38            android:name="com.example.alzyfunnyapp.PopcontactActivity"
+38-->D:\alzyfunny1\alzyfunny1\app\src\main\AndroidManifest.xml:29:19-53
+39            android:theme="@style/AppTheme.PopMe" />
+39-->D:\alzyfunny1\alzyfunny1\app\src\main\AndroidManifest.xml:30:19-56
+40        <activity
+40-->D:\alzyfunny1\alzyfunny1\app\src\main\AndroidManifest.xml:32:9-33:58
+41            android:name="com.example.alzyfunnyapp.PopuserActivity"
+41-->D:\alzyfunny1\alzyfunny1\app\src\main\AndroidManifest.xml:32:19-50
+42            android:theme="@style/AppTheme.PopMe" />
+42-->D:\alzyfunny1\alzyfunny1\app\src\main\AndroidManifest.xml:33:19-56
+43
+44        <meta-data
+44-->D:\alzyfunny1\alzyfunny1\app\src\main\AndroidManifest.xml:35:9-37:53
+45            android:name="luckiest_guy"
+45-->D:\alzyfunny1\alzyfunny1\app\src\main\AndroidManifest.xml:36:13-40
+46            android:resource="@font/luckiest_guy" />
+46-->D:\alzyfunny1\alzyfunny1\app\src\main\AndroidManifest.xml:37:13-50
+47
+48        <service
+48-->[com.google.firebase:firebase-database:19.3.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a858482f0d85511048b88d680e761880\jetified-firebase-database-19.3.0\AndroidManifest.xml:29:9-35:19
+49            android:name="com.google.firebase.components.ComponentDiscoveryService"
+49-->[com.google.firebase:firebase-database:19.3.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a858482f0d85511048b88d680e761880\jetified-firebase-database-19.3.0\AndroidManifest.xml:30:13-84
+50            android:directBootAware="true"
+50-->[com.google.firebase:firebase-common:19.3.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\3deb10f8139ef5717b3d54ada2a19ca4\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+51            android:exported="false" >
+51-->[com.google.firebase:firebase-database:19.3.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a858482f0d85511048b88d680e761880\jetified-firebase-database-19.3.0\AndroidManifest.xml:31:13-37
+52            <meta-data
+52-->[com.google.firebase:firebase-database:19.3.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a858482f0d85511048b88d680e761880\jetified-firebase-database-19.3.0\AndroidManifest.xml:32:13-34:85
+53                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+53-->[com.google.firebase:firebase-database:19.3.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a858482f0d85511048b88d680e761880\jetified-firebase-database-19.3.0\AndroidManifest.xml:33:17-109
+54                android:value="com.google.firebase.components.ComponentRegistrar" />
+54-->[com.google.firebase:firebase-database:19.3.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a858482f0d85511048b88d680e761880\jetified-firebase-database-19.3.0\AndroidManifest.xml:34:17-82
+55        </service>
+56
+57        <activity
+57-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\2be5ef2959ea5355d833f1cf7554bfda\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+58            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+58-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\2be5ef2959ea5355d833f1cf7554bfda\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+59            android:exported="false"
+59-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\2be5ef2959ea5355d833f1cf7554bfda\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+60            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+60-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\2be5ef2959ea5355d833f1cf7554bfda\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+61
+62        <provider
+62-->[com.google.firebase:firebase-common:19.3.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\3deb10f8139ef5717b3d54ada2a19ca4\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+63            android:name="com.google.firebase.provider.FirebaseInitProvider"
+63-->[com.google.firebase:firebase-common:19.3.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\3deb10f8139ef5717b3d54ada2a19ca4\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+64            android:authorities="com.example.alzyfunnyapp.firebaseinitprovider"
+64-->[com.google.firebase:firebase-common:19.3.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\3deb10f8139ef5717b3d54ada2a19ca4\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+65            android:exported="false"
+65-->[com.google.firebase:firebase-common:19.3.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\3deb10f8139ef5717b3d54ada2a19ca4\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+66            android:initOrder="100" />
+66-->[com.google.firebase:firebase-common:19.3.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\3deb10f8139ef5717b3d54ada2a19ca4\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+67
+68        <meta-data
+68-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\164bb505b81f338baa0db13edd04c1d1\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+69            android:name="com.google.android.gms.version"
+69-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\164bb505b81f338baa0db13edd04c1d1\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+70            android:value="@integer/google_play_services_version" />
+70-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\164bb505b81f338baa0db13edd04c1d1\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+71    </application>
+72
+73</manifest>

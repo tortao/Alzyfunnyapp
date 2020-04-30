@@ -1,0 +1,48 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.memo.match"
+4    android:versionCode="1007"
+5    android:versionName="1.01.001007" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="14"
+8-->D:\alzyfunny1\alzyfunny1\Memomatch\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->D:\alzyfunny1\alzyfunny1\Memomatch\src\main\AndroidManifest.xml
+10
+11    <application
+11-->D:\alzyfunny1\alzyfunny1\Memomatch\src\main\AndroidManifest.xml:5:5-22:19
+12        android:name="com.memo.match.GameApplication"
+12-->D:\alzyfunny1\alzyfunny1\Memomatch\src\main\AndroidManifest.xml:6:9-40
+13        android:allowBackup="true"
+13-->D:\alzyfunny1\alzyfunny1\Memomatch\src\main\AndroidManifest.xml:7:9-35
+14        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+14-->[androidx.core:core:1.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\1921e8b00664583b96275b63e35c8fb2\core-1.0.0\AndroidManifest.xml:22:18-86
+15        android:icon="@drawable/icon"
+15-->D:\alzyfunny1\alzyfunny1\Memomatch\src\main\AndroidManifest.xml:8:9-38
+16        android:label="@string/app_name"
+16-->D:\alzyfunny1\alzyfunny1\Memomatch\src\main\AndroidManifest.xml:9:9-41
+17        android:theme="@style/AppTheme" >
+17-->D:\alzyfunny1\alzyfunny1\Memomatch\src\main\AndroidManifest.xml:10:9-40
+18        <activity
+18-->D:\alzyfunny1\alzyfunny1\Memomatch\src\main\AndroidManifest.xml:11:9-20:20
+19            android:name="com.memo.match.MainActivity"
+19-->D:\alzyfunny1\alzyfunny1\Memomatch\src\main\AndroidManifest.xml:12:13-41
+20            android:label="@string/app_name"
+20-->D:\alzyfunny1\alzyfunny1\Memomatch\src\main\AndroidManifest.xml:13:13-45
+21            android:screenOrientation="landscape" >
+21-->D:\alzyfunny1\alzyfunny1\Memomatch\src\main\AndroidManifest.xml:14:13-50
+22            <intent-filter>
+22-->D:\alzyfunny1\alzyfunny1\Memomatch\src\main\AndroidManifest.xml:15:13-19:29
+23                <action android:name="android.intent.action.MAIN" />
+23-->D:\alzyfunny1\alzyfunny1\Memomatch\src\main\AndroidManifest.xml:16:17-69
+23-->D:\alzyfunny1\alzyfunny1\Memomatch\src\main\AndroidManifest.xml:16:25-66
+24
+25                <category android:name="android.intent.category.LAUNCHER" />
+25-->D:\alzyfunny1\alzyfunny1\Memomatch\src\main\AndroidManifest.xml:18:17-77
+25-->D:\alzyfunny1\alzyfunny1\Memomatch\src\main\AndroidManifest.xml:18:27-74
+26            </intent-filter>
+27        </activity>
+28    </application>
+29
+30</manifest>

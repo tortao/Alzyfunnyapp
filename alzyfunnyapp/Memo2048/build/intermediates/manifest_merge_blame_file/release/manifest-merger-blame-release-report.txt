@@ -1,0 +1,47 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="Memo.v2048g"
+4    android:versionCode="2"
+5    android:versionName="1.2" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="29"
+8-->D:\alzyfunny1\alzyfunny1\Memo2048\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\alzyfunny1\alzyfunny1\Memo2048\src\main\AndroidManifest.xml
+10
+11    <application
+11-->D:\alzyfunny1\alzyfunny1\Memo2048\src\main\AndroidManifest.xml:5:1-20:15
+12        android:allowBackup="true"
+12-->D:\alzyfunny1\alzyfunny1\Memo2048\src\main\AndroidManifest.xml:6:5-31
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\1921e8b00664583b96275b63e35c8fb2\core-1.0.0\AndroidManifest.xml:22:18-86
+14        android:extractNativeLibs="false"
+15        android:icon="@mipmap/ic_launcher"
+15-->D:\alzyfunny1\alzyfunny1\Memo2048\src\main\AndroidManifest.xml:7:5-39
+16        android:label="@string/app_name"
+16-->D:\alzyfunny1\alzyfunny1\Memo2048\src\main\AndroidManifest.xml:8:5-37
+17        android:theme="@style/AppTheme" >
+17-->D:\alzyfunny1\alzyfunny1\Memo2048\src\main\AndroidManifest.xml:9:5-36
+18        <activity
+18-->D:\alzyfunny1\alzyfunny1\Memo2048\src\main\AndroidManifest.xml:10:5-19:16
+19            android:name="Memo.v2048g.MainActivity"
+19-->D:\alzyfunny1\alzyfunny1\Memo2048\src\main\AndroidManifest.xml:11:9-48
+20            android:label="@string/app_name"
+20-->D:\alzyfunny1\alzyfunny1\Memo2048\src\main\AndroidManifest.xml:12:9-41
+21            android:screenOrientation="fullSensor" >
+21-->D:\alzyfunny1\alzyfunny1\Memo2048\src\main\AndroidManifest.xml:13:9-47
+22            <intent-filter>
+22-->D:\alzyfunny1\alzyfunny1\Memo2048\src\main\AndroidManifest.xml:14:9-18:25
+23                <action android:name="android.intent.action.MAIN" />
+23-->D:\alzyfunny1\alzyfunny1\Memo2048\src\main\AndroidManifest.xml:15:13-65
+23-->D:\alzyfunny1\alzyfunny1\Memo2048\src\main\AndroidManifest.xml:15:21-62
+24
+25                <category android:name="android.intent.category.LAUNCHER" />
+25-->D:\alzyfunny1\alzyfunny1\Memo2048\src\main\AndroidManifest.xml:17:13-73
+25-->D:\alzyfunny1\alzyfunny1\Memo2048\src\main\AndroidManifest.xml:17:23-70
+26            </intent-filter>
+27        </activity>
+28    </application>
+29
+30</manifest>
